@@ -23,7 +23,7 @@ def log_message(message: str):
 # ASCII art
 os.system("clear")
 logo = """
-\033[38;5;220m
+\033[37m
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 ▒▒▒▒╔════╗▒╔════╗▒╔══╗▒▒▒╔╗╔═════╗╔╗▒▒▒▒▒╔╗╔═╗▒▒▒▒╔═╗▒▒▒▒▒╔═╗▒▒▒▒╔═╗╔═════╗▒▒▒
 ▒▒▒╔╝╔══╗║╔╝╔══╗╚╗║╔╗║▒▒▒║║║╔═══╗║║║▒▒▒▒▒║║╚╗╚╗▒▒╔╝╔╝▒▒▒▒▒╚╗╚╗▒▒╔╝╔╝║╔═══╗║▒▒▒
@@ -75,7 +75,7 @@ while attemps < 100:
     username = input("\033[33m┗━> Username: \033[30m")
     password = input("\033[33m┗━> Password: \033[30m")
 
-    if username == 'fuck' and password == 'jaws':
+    if username == '9' and password == '9':
         print("\033[48;5;7m\033[30m⟩⟩ BIRRUH BIDDAM NAFDIKA YAA AQSHA...!! \033[0m")
         break
     else:
